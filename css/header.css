@@ -1,0 +1,64 @@
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #eef5ff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .head {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .logo {
+    display: inline-block;
+    text-decoration: overline;
+    font-size: 38px;
+    font-weight: 700;
+    color: rgb(1, 1, 107);
+    margin: 1rem 0rem;
+  }
+  
+  h4 {
+    display: inline;
+    font-weight: 700;
+    color: rgb(1, 1, 107);
+    text-decoration: underline;
+  }
+  
+  .line {
+    font-size: 2rem;
+    opacity: 0.1;
+    border-radius: 3px;
+    background-color: rgb(1, 1, 107);
+  }
+
+  
+  
+  nav,
+  li,
+  a {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 200;
+    color: #7b7777;
+  }
+  
+  ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #021d3f;
+    padding: 0.5rem;
+    /* position: fixed; */
+  }
+  
+  ul li a:hover {
+    color: white;
+  }
+  
+  p{
+    text-align: start;
+  }

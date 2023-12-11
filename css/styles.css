@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Manrope:wght@300;400;500;600;700&display=swap");
+
+
+
+/* body section */
+
+.welcome {
+  display: flex;
+  padding: 0em 1em;
+  margin: 3rem 0rem;
+}
+
+img {
+  width: 550px;
+  height: 650px;
+  border-radius: 10px;
+}
+
+span1 {
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #0747a2;
+}
+span2 {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  background-color: #6f8fbc;
+  border-radius: 15px;
+  color: white;
+  font-size: 19px;
+  border-color: #6f8fbc;
+}
+
+/* doctors design */
+.doctors-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  gap: 10px;
+  margin: 2rem;
+}
+
+.doctor-card {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.img4{
+  max-width:300px;
+  height: 300px; 
+}
+
+/* about design */
+
+.abouttext , .about{
+  display: flex;
+  padding: 2rem;
+}
+
+.img2{
+  width: 650px;
+  height: 500px;
+}
+
+
+.mission,.vision{
+  width:fit-content;
+  background-color:#eef5ff;
+  border-radius: 10px;
+  margin: 0rem 1rem;
+  padding: 5px;
+  box-shadow: 1px 1px 8px;
+}
+
+.team{
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(250px, 1fr)) ;
+  gap: 10px;
+}
+
+.img3{
+  width:200px;
+  height: 200px;
+}
+
+h3{
+  font-weight: 500;
+  font-size: 1.3em;
+  color: #0747a2;
+  text-align: center;
+}
+
+/* Services Design */
+
+
+
+.img5{
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 10px;
+  margin: 2rem 1rem;
+}
+
+.grid-item{
+  width: 300px;
+  height: 400px;
+  padding: 25px;
+  background-color: #eef5ff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px;
+}
+
+/* help line  */
+
+.flex, .contact{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem ;
+}
+
+.img6{
+  width: 450px;
+  height: 410px;
+}
+
+
+
+
+
+
+
+
+
+
+
